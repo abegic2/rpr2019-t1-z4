@@ -8,17 +8,14 @@ public class Supermarket {
         return artikli;
     }
 
-    public void setArtikli(Artikl[] artikli) {
+    /*public void setArtikli(Artikl[] artikli) {
         this.artikli = artikli;
-    }
+    }*/
 
     public int getBrojArtikala() {
         return brojArtikala;
     }
 
-    public void setBrojArtikala(int brojArtikala) {
-        this.brojArtikala = brojArtikala;
-    }
 
     public boolean dodajArtikl(Artikl artikal) {
         if(brojArtikala<1000) {
