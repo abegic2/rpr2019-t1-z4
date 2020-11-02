@@ -13,6 +13,10 @@ public class Korpa {
         return false;
     }
 
+    public int getBrojArtikala() {
+        return brojArtikala;
+    }
+
     public Artikl[] getArtikli() {
         return artikli;
     }
